@@ -9,18 +9,18 @@
 * [Javascript ES6 — Iterables and Iterators](https://medium.com/@luisvieira_gmr/javascript-es6-iterables-and-iterators-1d53a6e784d3)
 
 
-## 0. Const or let?
-## 1. Block Scope
-## 2. Arrow functions
-## 3. Parameter defaults
-## 4. Rest parameter
-## 5. The wonders of spread syntax
-## 6. Take advantage of template literals
-## 7. Object property value shorthand syntax
-## 8. No need to create empty objects before adding in properties
-## 9. ES6 method properties
-## 10. For...of loop
-## 11. Iterator
-## 12. Let's create a report object
-## 13. Iterating through report objects
-## 14. Iterate through object
+0. Const or let?
+1. Block Scope
+2. Arrow functions
+3. Parameter defaults
+4. Rest parameter
+5. The wonders of spread syntax
+6. Take advantage of template literals
+7. Object property value shorthand syntax
+8. No need to create empty objects before adding in properties
+9. ES6 method properties
+10. For...of loop
+11. Iterator
+12. Let's create a report object
+13. Iterating through report objects
+14. Iterate through object
