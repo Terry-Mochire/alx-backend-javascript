@@ -6,6 +6,10 @@ export default class SkyHighBuilding extends Building {
     this.floors = floors;
   }
 
+  get sqft() {
+    return this._sqft;
+  }
+
   get floors() {
     return this._floors;
   }
