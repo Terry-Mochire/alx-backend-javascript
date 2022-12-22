@@ -5,9 +5,21 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
   const user = signUpUser(firstName, lastName);
   const photo = uploadPhoto(fileName);
   const arr = [];
+  const arrObject = {};
 
-  return Promise.all([user, photo])
+  return Promise.all([photo, user])
     .then(
-      (values) => arr.push(`status: ${values[0].status}`),
+      (values) => {
+        arrObject.status = values[0].status;
+      },
+    ).catch(
+      () => {
+        arrObject.status = 'rejected';
+      },
+    ).finally(
+      () => {
+        arr.push(arrObject);
+        return arr;
+      },
     );
 }
